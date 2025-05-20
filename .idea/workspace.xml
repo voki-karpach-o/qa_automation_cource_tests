@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="1) Did first test in Pytest" />
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="-">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_automation_cource" beforeDir="false" afterPath="$PROJECT_DIR$/qa_automation_cource" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,8 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="task_1" />
+        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/qa_automation_cource" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +50,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests for test_multiply_positive.TestMultiply">
     <configuration name="Python tests for test_multiply_positive.TestMultiply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
@@ -74,7 +84,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_multiply_positive.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/tests/test_multiply_positive.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,7 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_multiply_positive.py" />
+        <item itemvalue="Python tests.Python tests in C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/tests/test_multiply_positive.py" />
         <item itemvalue="Python tests.Python tests for test_multiply_positive.TestMultiply" />
         <item itemvalue="Python tests.Python tests for test_multiply_positive.TestMultiply.test_multiply" />
       </list>
@@ -113,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747757647631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-">
+      <option name="closed" value="true" />
+      <created>1747763934240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747763934240</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1) Did first test in Pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="1) Did first test in Pytest" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>
