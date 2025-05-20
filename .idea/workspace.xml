@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="-">
+      <change afterPath="$PROJECT_DIR$/qa_automation_cource/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
         <entry key="$PROJECT_DIR$/qa_automation_cource" value="detached" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/qa_automation_cource" />
     <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -48,8 +48,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Task__1",
-    "last_opened_file_path": "C:/Users/karpa/PycharmProjects/qa_automation_cource_tests",
+    "git-widget-placeholder": "Task__3.7",
+    "last_opened_file_path": "C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/qa_automation_cource",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   },
   "keyToStringList": {
@@ -318,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747771963286</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="-">
+      <option name="closed" value="true" />
+      <created>1747773567073</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747773567073</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,12 +343,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1) Did first test in Pytest" />
     <MESSAGE value="1) Added positive case about Multiply" />
-    <MESSAGE value="-" />
     <MESSAGE value="1)Added positive case about multiply" />
     <MESSAGE value="1)Added negative case about multiply" />
     <MESSAGE value="1)Added positive case about divide" />
     <MESSAGE value="1)Added negative case about divide" />
     <MESSAGE value="Added init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added init" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>
