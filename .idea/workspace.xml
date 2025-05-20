@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="1)Added negative case about multiply">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="1)Added positive case about divide">
+      <change afterPath="$PROJECT_DIR$/tests/test_divide_negative.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747766817588</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1)Added positive case about divide">
+      <option name="closed" value="true" />
+      <created>1747771371171</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747771371171</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +278,7 @@
     <MESSAGE value="-" />
     <MESSAGE value="1)Added positive case about multiply" />
     <MESSAGE value="1)Added negative case about multiply" />
-    <option name="LAST_COMMIT_MESSAGE" value="1)Added negative case about multiply" />
+    <MESSAGE value="1)Added positive case about divide" />
+    <option name="LAST_COMMIT_MESSAGE" value="1)Added positive case about divide" />
   </component>
 </project>
