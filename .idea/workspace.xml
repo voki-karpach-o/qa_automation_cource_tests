@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="1)Added negative case about divide">
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,19 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Task__1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/karpa/PycharmProjects/qa_automation_cource_tests&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Task__1",
+    "last_opened_file_path": "C:/Users/karpa/PycharmProjects/qa_automation_cource_tests",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
@@ -65,7 +65,7 @@
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_divide_negative">
+  <component name="RunManager" selected="Python tests.Python tests for test_divide_positive.TestMultiply">
     <configuration name="test_divide_negative" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_multiply_positive.TestMultiply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_divide_negative.TestMultiply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +97,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_multiply_positive.TestMultiply&quot;" />
+      <option name="_new_target" value="&quot;test_divide_negative.TestMultiply&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_divide_positive.TestMultiply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="qa_automation_cource_tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_divide_positive.TestMultiply&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -159,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_divide_positive.TestMultiply" />
+        <item itemvalue="Python tests.Python tests for test_divide_negative.TestMultiply" />
         <item itemvalue="Python.test_divide_negative" />
         <item itemvalue="Python tests.Python tests in C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/tests/test_multiply_positive.py" />
         <item itemvalue="Python tests.Python tests in C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/tests/test_multiply_positive.py" />
-        <item itemvalue="Python tests.Python tests for test_multiply_positive.TestMultiply.test_multiply" />
-        <item itemvalue="Python tests.Python tests for test_multiply_positive.TestMultiply" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747771590246</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added init">
+      <option name="closed" value="true" />
+      <created>1747771949258</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747771949258</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added init">
+      <option name="closed" value="true" />
+      <created>1747771963286</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1747771963286</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,6 +340,7 @@
     <MESSAGE value="1)Added negative case about multiply" />
     <MESSAGE value="1)Added positive case about divide" />
     <MESSAGE value="1)Added negative case about divide" />
-    <option name="LAST_COMMIT_MESSAGE" value="1)Added negative case about divide" />
+    <MESSAGE value="Added init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added init" />
   </component>
 </project>
