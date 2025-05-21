@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Fixed the code">
-      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_memo_plus_negative.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_memo_plus_positive.py" afterDir="false" />
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added the test-cases about memo_plus">
+      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_memo_minus_positive.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -458,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747840719395</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added the test-cases about memo_plus">
+      <option name="closed" value="true" />
+      <created>1747841656379</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1747841656379</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,6 +497,7 @@
     <MESSAGE value="Moved to the folder with tests for basic_calc" />
     <MESSAGE value="Added positive and negative tests about regular factorial and recursive factorial" />
     <MESSAGE value="Fixed the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the code" />
+    <MESSAGE value="Added the test-cases about memo_plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the test-cases about memo_plus" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 from qa_automation_cource.new_calc import NewCalc
 
 
-class TestRegular:
+class TestMemoPlus:
     def test_memo_plus_negative(self):
         calc = NewCalc()
         calc.memo_plus(5)
