@@ -67,22 +67,22 @@
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_negative.TestAdd">
-    <configuration name="Python tests for test_divide_negative.TestMultiply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_add_negative.TestAdd.test_add">
+    <configuration name="Python tests for test_add_negative.TestAdd.test_add" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_basic_calc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_divide_negative.TestMultiply&quot;" />
+      <option name="_new_target" value="&quot;test_add_negative.TestAdd.test_add&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_subtract_positive.TestMultiply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.tests_basic_calc.test_divide_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +92,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_subtract_positive.TestMultiply&quot;" />
+      <option name="_new_target" value="&quot;tests.tests_basic_calc.test_divide_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.tests_basic_calc.test_subtract_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="qa_automation_cource_tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.tests_basic_calc.test_subtract_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -107,34 +121,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_multiply_positive.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/tests/test_multiply_positive.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qa_automation_cource_tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_multiply_positive.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_divide_negative.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qa_automation_cource_tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_divide_negative.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -148,11 +134,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_subtract_positive.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/tests_basic_calc/test_subtract_positive.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_add_negative.TestAdd" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.tests_basic_calc.test_add_negative.TestAdd" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,17 +150,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_negative.TestAdd&quot;" />
+      <option name="_new_target" value="&quot;tests.tests_basic_calc.test_add_negative.TestAdd&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_add_negative.TestAdd" />
-        <item itemvalue="Python tests.Python tests for test_subtract_positive.TestMultiply" />
+        <item itemvalue="Python tests.Python tests for test_add_negative.TestAdd.test_add" />
+        <item itemvalue="Python tests.pytest for tests.tests_basic_calc.test_add_negative.TestAdd" />
+        <item itemvalue="Python tests.Python tests for tests.tests_basic_calc.test_subtract_positive" />
         <item itemvalue="Python tests.Python tests in test_subtract_positive.py" />
-        <item itemvalue="Python tests.Python tests for test_divide_negative.TestMultiply" />
-        <item itemvalue="Python tests.Python tests in test_divide_negative.py" />
+        <item itemvalue="Python tests.Python tests for tests.tests_basic_calc.test_divide_negative" />
       </list>
     </recent_temporary>
   </component>
