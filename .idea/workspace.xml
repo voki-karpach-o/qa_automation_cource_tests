@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added top_memory_positive test_case" />
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added the marks critical in basic test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -494,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747843510637</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Added the marks critical in basic test">
+      <option name="closed" value="true" />
+      <created>1747844093134</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1747844093134</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,6 +541,7 @@
     <MESSAGE value="Added memo_minus_negative test_case" />
     <MESSAGE value="Added top_memory_negative test_case" />
     <MESSAGE value="Added top_memory_positive test_case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added top_memory_positive test_case" />
+    <MESSAGE value="Added the marks critical in basic test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the marks critical in basic test" />
   </component>
 </project>
