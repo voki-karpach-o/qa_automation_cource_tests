@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Moved to the folder with tests for basic_calc">
-      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_factorial_recursive_negative.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_factorial_recursive_positive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_factorial_regular_negative.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_factorial_regular_positive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Fixed the code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +33,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -433,7 +430,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747837532887</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added positive and negative tests about regular factorial and recursive factorial">
+      <option name="closed" value="true" />
+      <created>1747840639339</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1747840639339</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fixed the code">
+      <option name="closed" value="true" />
+      <created>1747840675201</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1747840675201</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,6 +476,8 @@
     <MESSAGE value="Fixed all case" />
     <MESSAGE value="Added the negative add test" />
     <MESSAGE value="Moved to the folder with tests for basic_calc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved to the folder with tests for basic_calc" />
+    <MESSAGE value="Added positive and negative tests about regular factorial and recursive factorial" />
+    <MESSAGE value="Fixed the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the code" />
   </component>
 </project>
