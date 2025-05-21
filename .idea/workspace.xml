@@ -67,21 +67,7 @@
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_multiply_positive.TestMultiply">
-    <configuration name="Python tests for test_divide_negative.TestMultiply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qa_automation_cource_tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_divide_negative.TestMultiply&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in test_divide_negative.py">
     <configuration name="Python tests for test_divide_positive.TestMultiply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,6 +138,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_divide_negative.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="qa_automation_cource_tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_divide_negative.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_divide_negative.TestMultiply.test_divide" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_divide_negative.py" />
         <item itemvalue="Python tests.Python tests for test_multiply_positive.TestMultiply" />
         <item itemvalue="Python tests.Python tests for test_subtract_positive.TestMultiply" />
         <item itemvalue="Python tests.pytest for test_divide_negative.TestMultiply.test_divide" />
         <item itemvalue="Python tests.Python tests for test_divide_positive.TestMultiply" />
-        <item itemvalue="Python tests.Python tests for test_divide_negative.TestMultiply" />
       </list>
     </recent_temporary>
   </component>
