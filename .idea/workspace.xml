@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Fixed all case">
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Moved to the folder with tests for basic_calc">
+      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_factorial_recursive_negative.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_factorial_recursive_positive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_factorial_regular_negative.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_factorial_regular_positive.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_add_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_add_negative.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +67,7 @@
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests\tests\tests_basic_calc" />
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
     </key>
   </component>
@@ -413,7 +417,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747824582254</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added the negative add test">
+      <option name="closed" value="true" />
+      <created>1747837336739</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1747837336739</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Moved to the folder with tests for basic_calc">
+      <option name="closed" value="true" />
+      <created>1747837532887</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1747837532887</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,6 +461,8 @@
     <MESSAGE value="Added subtrack negtive" />
     <MESSAGE value="Added add positive" />
     <MESSAGE value="Fixed all case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed all case" />
+    <MESSAGE value="Added the negative add test" />
+    <MESSAGE value="Moved to the folder with tests for basic_calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved to the folder with tests for basic_calc" />
   </component>
 </project>
