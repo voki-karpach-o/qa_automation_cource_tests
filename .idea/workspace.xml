@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added memo_minus_negative test_case">
-      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_top_memory_negative.py" afterDir="false" />
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added top_memory_negative test_case">
+      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_top_memory_positive.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -480,7 +480,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747842796304</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Added top_memory_negative test_case">
+      <option name="closed" value="true" />
+      <created>1747843335006</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1747843335006</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,6 +523,7 @@
     <MESSAGE value="Added the test-cases about memo_plus" />
     <MESSAGE value="Fixed test-cases about memo" />
     <MESSAGE value="Added memo_minus_negative test_case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added memo_minus_negative test_case" />
+    <MESSAGE value="Added top_memory_negative test_case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added top_memory_negative test_case" />
   </component>
 </project>
