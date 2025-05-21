@@ -1,6 +1,9 @@
+import pytest
+
 from qa_automation_cource.basic_calc import BasicCalc
 
 
+@pytest.mark.critical
 class TestAdd:
     def test_add(self):
         result = BasicCalc.calc_add(5, 3)
