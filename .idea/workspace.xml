@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="1) Added logs in conftest.py&#10;2) Fixed the code in new_calc.py" />
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added the values in the fixture" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747596021705</updated>
-    </task>
-    <task id="LOCAL-00003" summary="-">
-      <option name="closed" value="true" />
-      <created>1747764501759</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1747764501759</updated>
     </task>
     <task id="LOCAL-00004" summary="1) Added positive case about Multiply">
       <option name="closed" value="true" />
@@ -572,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747926316563</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Added the values in the fixture">
+      <option name="closed" value="true" />
+      <created>1747926597089</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1747926597089</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added divide negative" />
     <MESSAGE value="Added subtrack positive" />
     <MESSAGE value="Added subtrack negtive" />
     <MESSAGE value="Added add positive" />
@@ -612,6 +611,7 @@
     <MESSAGE value="Added the memory fixture in conftest.py" />
     <MESSAGE value="Fixed the test_top_memory_positive.py" />
     <MESSAGE value="1) Added logs in conftest.py&#10;2) Fixed the code in new_calc.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="1) Added logs in conftest.py&#10;2) Fixed the code in new_calc.py" />
+    <MESSAGE value="Added the values in the fixture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the values in the fixture" />
   </component>
 </project>
