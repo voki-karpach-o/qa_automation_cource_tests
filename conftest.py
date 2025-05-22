@@ -11,3 +11,10 @@ sys.path.insert(0, project_root)
 def calculator_new():
     calc = NewCalc()
     return calc
+
+
+@pytest.fixture
+def calculator_new_with_memory():
+    calc = NewCalc()
+    calc.memo_plus(5)
+    return calc
