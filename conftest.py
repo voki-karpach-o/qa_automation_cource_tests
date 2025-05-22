@@ -26,4 +26,18 @@ def temp_log_file(tmpdir):
     yield log_file
     if os.path.exists(log_file):
         os.remove(log_file)
-        
+
+
+def generate_test_data():
+    test_data = [
+        (1, 2, 3),  # 3
+        (5, 3, 8),  # 8
+        (-1, -1, -2),  # -2
+        (0, 0, 0),  # 0
+    ]
+    return test_data
+
+
+@pytest.fixture
+def test_data():
+    return generate_test_data()
