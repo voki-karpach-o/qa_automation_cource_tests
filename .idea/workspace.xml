@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added the memory fixture in conftest.py">
-      <change beforePath="$PROJECT_DIR$/tests/test_new_calc/test_top_memory_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_new_calc/test_top_memory_positive.py" afterDir="false" />
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Fixed the test_top_memory_positive.py">
+      <change afterPath="$PROJECT_DIR$/tests/test_new_calc/test_log_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_automation_cource" beforeDir="false" afterPath="$PROJECT_DIR$/qa_automation_cource" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_automation_cource/new_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_automation_cource/new_calc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +30,7 @@
         <entry key="$PROJECT_DIR$/qa_automation_cource" value="detached" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/qa_automation_cource" />
     <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -47,19 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Task__2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/qa_automation_cource&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Task__3.7",
+    "last_opened_file_path": "C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/qa_automation_cource",
+    "settings.editor.selected.configurable": "Errors"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests\qa_automation_cource" />
@@ -168,14 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747596021705</updated>
-    </task>
-    <task id="LOCAL-00001" summary="1) Did first test in Pytest">
-      <option name="closed" value="true" />
-      <created>1747757647631</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1747757647631</updated>
     </task>
     <task id="LOCAL-00002" summary="-">
       <option name="closed" value="true" />
@@ -561,7 +557,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747923028191</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Fixed the test_top_memory_positive.py">
+      <option name="closed" value="true" />
+      <created>1747923336624</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1747923336625</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,7 +580,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added init" />
     <MESSAGE value="-" />
     <MESSAGE value="Added divide negative" />
     <MESSAGE value="Added subtrack positive" />
@@ -601,6 +604,7 @@
     <MESSAGE value="Change the codes in conftest.py and in the new_calc.py" />
     <MESSAGE value="Change the codes in the new_calc.py" />
     <MESSAGE value="Added the memory fixture in conftest.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the memory fixture in conftest.py" />
+    <MESSAGE value="Fixed the test_top_memory_positive.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the test_top_memory_positive.py" />
   </component>
 </project>
