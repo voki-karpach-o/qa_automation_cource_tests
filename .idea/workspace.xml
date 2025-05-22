@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added the fixture in conftest.py">
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added the fixture in conftest.py and in the test_memo_plus_positive.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_new_calc/test_memo_plus_positive.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_new_calc/test_memo_plus_positive.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +71,26 @@
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_memo_plus_positive.TestMemoPlus.test_memo_plus_positive">
-    <configuration name="Python tests for tests.tests_basic_calc.test_divide_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.conftest">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.tests_basic_calc.test_divide_negative&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for tests.tests_basic_calc.test_subtract_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -147,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.conftest" />
         <item itemvalue="Python tests.pytest for test_memo_plus_positive.TestMemoPlus.test_memo_plus_positive" />
         <item itemvalue="Python tests.Python tests in test_subtract_positive.py" />
         <item itemvalue="Python tests.Python tests in C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/tests/test_multiply_positive.py" />
         <item itemvalue="Python tests.Python tests for tests.tests_basic_calc.test_subtract_positive" />
-        <item itemvalue="Python tests.Python tests for tests.tests_basic_calc.test_divide_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -524,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747915865165</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Added the fixture in conftest.py and in the test_memo_plus_positive.py">
+      <option name="closed" value="true" />
+      <created>1747918510713</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1747918510713</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1)Added positive case about multiply" />
     <MESSAGE value="1)Added negative case about multiply" />
     <MESSAGE value="1)Added positive case about divide" />
     <MESSAGE value="1)Added negative case about divide" />
@@ -564,6 +577,7 @@
     <MESSAGE value="Added the parametrize in test_divide_positive" />
     <MESSAGE value="Added the special files for testing" />
     <MESSAGE value="Added the fixture in conftest.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the fixture in conftest.py" />
+    <MESSAGE value="Added the fixture in conftest.py and in the test_memo_plus_positive.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the fixture in conftest.py and in the test_memo_plus_positive.py" />
   </component>
 </project>

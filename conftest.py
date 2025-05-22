@@ -3,7 +3,8 @@ import os
 import pytest
 from qa_automation_cource.new_calc import NewCalc
 
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+project_root = os.path.abspath(os.path.dirname(__file__))
+sys.path.insert(0, project_root)
 
 
 @pytest.fixture
