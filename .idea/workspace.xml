@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added the values in the fixture" />
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added test_new_add.py in tests_basic_calc">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,94 +60,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Task__2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/qa_automation_cource&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Task__2",
+    "last_opened_file_path": "C:/Users/karpa/PycharmProjects/qa_automation_cource_tests",
+    "settings.editor.selected.configurable": "Errors"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests\qa_automation_cource" />
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests\tests" />
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests\tests\tests_basic_calc" />
       <recent name="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.conftest">
-    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_factorial_recursive_positive.TestRecursive">
+    <configuration name="Pytest" type="tests" factoryName="Autodetect">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\karpa\PycharmProjects\qa_automation_cource_tests\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10 (qa_automation_cource_tests)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conftest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.tests_basic_calc.test_subtract_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qa_automation_cource_tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.tests_basic_calc.test_subtract_positive&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/tests/test_multiply_positive.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qa_automation_cource_tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_multiply_positive.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_subtract_positive.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="qa_automation_cource_tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/tests_basic_calc/test_subtract_positive.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_memo_plus_positive.TestMemoPlus.test_memo_plus_positive" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_factorial_recursive_positive.TestRecursive" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="qa_automation_cource_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,17 +112,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_memo_plus_positive.TestMemoPlus.test_memo_plus_positive&quot;" />
+      <option name="_new_target" value="&quot;test_factorial_recursive_positive.TestRecursive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python tests.Pytest" />
+      <item itemvalue="Python tests.pytest for test_factorial_recursive_positive.TestRecursive" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.conftest" />
-        <item itemvalue="Python tests.pytest for test_memo_plus_positive.TestMemoPlus.test_memo_plus_positive" />
-        <item itemvalue="Python tests.Python tests in test_subtract_positive.py" />
-        <item itemvalue="Python tests.Python tests in C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/tests/test_multiply_positive.py" />
-        <item itemvalue="Python tests.Python tests for tests.tests_basic_calc.test_subtract_positive" />
+        <item itemvalue="Python tests.pytest for test_factorial_recursive_positive.TestRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -179,14 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747596021705</updated>
-    </task>
-    <task id="LOCAL-00004" summary="1) Added positive case about Multiply">
-      <option name="closed" value="true" />
-      <created>1747764610975</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1747764610975</updated>
     </task>
     <task id="LOCAL-00005" summary="-">
       <option name="closed" value="true" />
@@ -572,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747926597089</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Added test_new_add.py in tests_basic_calc">
+      <option name="closed" value="true" />
+      <created>1747927126799</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1747927126801</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,7 +542,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added subtrack positive" />
     <MESSAGE value="Added subtrack negtive" />
     <MESSAGE value="Added add positive" />
     <MESSAGE value="Fixed all case" />
@@ -612,6 +566,7 @@
     <MESSAGE value="Fixed the test_top_memory_positive.py" />
     <MESSAGE value="1) Added logs in conftest.py&#10;2) Fixed the code in new_calc.py" />
     <MESSAGE value="Added the values in the fixture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the values in the fixture" />
+    <MESSAGE value="Added test_new_add.py in tests_basic_calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test_new_add.py in tests_basic_calc" />
   </component>
 </project>
