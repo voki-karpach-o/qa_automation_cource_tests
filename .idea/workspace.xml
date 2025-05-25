@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="Added the parametrize in test_divide_positive">
-      <change afterPath="$PROJECT_DIR$/tests/tests_basic_calc/function_with_bug_subtract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_basic_calc/test_add_with_bug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c41b1346-7492-49a7-afea-85f17002e4df" name="Changes" comment="-" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,6 +155,14 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python tests.Python tests for test_add_negative.TestAdd.test_add" />
+      <item itemvalue="Python tests.Python tests for tests.tests_basic_calc.test_divide_negative" />
+      <item itemvalue="Python tests.Python tests for tests.tests_basic_calc.test_subtract_positive" />
+      <item itemvalue="Python tests.Python tests in C:/Users/karpa/PycharmProjects/qa_automation_cource_tests/tests/test_multiply_positive.py" />
+      <item itemvalue="Python tests.Python tests in test_subtract_positive.py" />
+      <item itemvalue="Python tests.pytest for tests.tests_basic_calc.test_add_negative.TestAdd" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_add_negative.TestAdd.test_add" />
@@ -522,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747850611801</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="-">
+      <option name="closed" value="true" />
+      <created>1748187239127</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1748187239127</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +556,6 @@
     <MESSAGE value="1)Added positive case about divide" />
     <MESSAGE value="1)Added negative case about divide" />
     <MESSAGE value="Added init" />
-    <MESSAGE value="-" />
     <MESSAGE value="Added divide negative" />
     <MESSAGE value="Added subtrack positive" />
     <MESSAGE value="Added subtrack negtive" />
@@ -562,6 +573,7 @@
     <MESSAGE value="Added the marks critical in basic test" />
     <MESSAGE value="Added pytest.ini" />
     <MESSAGE value="Added the parametrize in test_divide_positive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the parametrize in test_divide_positive" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
 </project>
