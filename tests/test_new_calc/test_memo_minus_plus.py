@@ -7,19 +7,25 @@ class TestMemoMinus:
         calc.memo_plus(5)
         calc.memo_plus(10)
         calc.memo_minus()
-        assert calc.memory == [5], f'Ожидал, что в памяти число 5 и результат {calc.memory}'
+        current_result = calc.memory
+        expected_result = [5]
+        assert current_result == expected_result, f"Неправильное значение для верхнего значения в памяти, ожидал {expected_result} а результат {current_result}"
 
     def test_memo_minus_negative(self):
         calc = NewCalc()
         calc.memo_minus()
-        assert calc.memory == [], f'Ожидал, что в памяти нет чисел и результат {calc.memory}'
+        current_result = calc.memory
+        expected_result = []
+        assert current_result == expected_result, f'Ожидал, что в памяти нет чисел a результат {current_result}'
 
 
 class TestMemoPlus:
     def test_memo_plus_positive(self):
         calc = NewCalc()
         calc.memo_plus(5)
-        assert calc.memory == [5], f'Ожидал 5 и результат {calc.memory}'
+        current_result = calc.memory
+        expected_result = [5]
+        assert current_result == expected_result, f"Неправильное значение для верхнего значения в памяти, ожидал {expected_result} а результат {current_result}"
 
     def test_memo_plus_negative(self):
         calc = NewCalc()
@@ -27,4 +33,6 @@ class TestMemoPlus:
         calc.memo_plus(10)
         calc.memo_plus(15)
         calc.memo_plus(20)
-        assert len(calc.memory) == 3, f'Ожидал, что добавится не больше 3 значений и результат {len(calc.memory)}'
+        current_result = len(calc.memory)
+        expected_result = 3
+        assert current_result == expected_result, f'Ожидал, что добавится не больше 3 значений а добавилось {current_result}'

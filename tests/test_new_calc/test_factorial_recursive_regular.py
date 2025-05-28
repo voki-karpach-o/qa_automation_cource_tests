@@ -5,19 +5,22 @@ from qa_automation_cource.new_calc import factorial_recursive, factorial_regular
 
 class TestRecursive:
     def test_factorial_recursive_positive(self):
-        result = factorial_recursive(5)
-        assert result == 120, f'Ожидал 120, но результат {result}'
+        current_result = factorial_recursive(5)
+        expected_result = 120
+        assert current_result == expected_result, f'Неправильное значение для факториала {factorial_recursive}, ожидал {expected_result}'
 
+    # Проверяем, что при слишком большом числе (2500) произойдёт ошибка переполнения стека рекурсии
     def test_factorial_recursive_negative(self):
-        with pytest.raises(RecursionError):
+        with pytest.raises(RecursionError, match="Переполнен стек рекурсии"):
             factorial_recursive(2500)
 
 
 class TestRegular:
     def test_factorial_regular_positive(self):
-        result = factorial_regular(4)
-        assert result == 24, f'Ожидал 24, но результат {result}'
+        current_result = factorial_regular(4)
+        expected_result = 24
+        assert current_result == expected_result, f'Неправильное значение для факториала {factorial_recursive}, ожидал {expected_result}'
 
     def test_factorial_regular_negative(self):
-        with pytest.raises(RecursionError):
+        with pytest.raises(RecursionError, match="Введено значение вместо числа"):
             factorial_regular('a')
