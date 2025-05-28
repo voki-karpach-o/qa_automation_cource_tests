@@ -1,3 +1,5 @@
+import pytest
+
 from qa_automation_cource.new_calc import NewCalc
 
 
@@ -13,10 +15,8 @@ class TestMemoMinus:
 
     def test_memo_minus_negative(self):
         calc = NewCalc()
-        calc.memo_minus()
-        current_result = calc.memory
-        expected_result = []
-        assert current_result == expected_result, f'Ожидал, что в памяти нет чисел a результат {current_result}'
+        with pytest.raises(ValueError, match="Значений в памяти нет!"):
+            calc.memo_minus()
 
 
 class TestMemoPlus:
