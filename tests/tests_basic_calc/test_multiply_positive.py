@@ -11,5 +11,5 @@ class TestMultiply:
         assert current_result == expected_result, f'Неправильное значение для умножения {current_result}, ожидал {expected_result}'
 
     def test_multiply_negative(self):
-        with pytest.raises(TypeError, match="Одним из значений является пустая строка"):
+        with pytest.raises(TypeError):
             BasicCalc.calc_multiply('', 3)

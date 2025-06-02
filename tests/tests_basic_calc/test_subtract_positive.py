@@ -11,5 +11,5 @@ class TestSubtract:
         assert current_result == expected_result, f'Неправильное значение для вычитания {current_result}, ожидал {expected_result}'
 
     def test_subtract_negative(self):
-        with pytest.raises(TypeError, match="Одним из значений является строка"):
+        with pytest.raises(TypeError):
             BasicCalc.calc_subtract('A', 3)

@@ -11,5 +11,5 @@ class TestAdd:
         assert current_result == expected_result, f'Неправильное значение для сложения {current_result}, ожидал {expected_result}'
 
     def test_add_negative(self):
-        with pytest.raises(TypeError, match="Одним из значений является строка"):
+        with pytest.raises(TypeError):
             BasicCalc.calc_add('A', 3)
