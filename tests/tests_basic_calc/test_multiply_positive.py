@@ -12,4 +12,4 @@ class TestMultiply:
 
     def test_multiply_negative(self):
         with pytest.raises(TypeError, match="Одним из значений является пустая строка"):
-            BasicCalc.calc_add('', 3)
+            BasicCalc.calc_multiply('', 3)
