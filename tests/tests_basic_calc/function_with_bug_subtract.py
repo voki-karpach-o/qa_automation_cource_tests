@@ -1,3 +1,3 @@
 def calc_subtract(first, second=None):
-    s = first + second
-    return s
+    v = first + second
+    return v
