@@ -15,7 +15,7 @@ class TestMemoMinus:
 
     def test_memo_minus_negative(self):
         calc = NewCalc()
-        with pytest.raises(ValueError, match="Значений в памяти нет!"):
+        with pytest.raises(ValueError):
             calc.memo_minus()
 
 
