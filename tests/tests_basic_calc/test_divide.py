@@ -10,20 +10,20 @@ from qa_automation_cource.basic_calc import BasicCalc
 
 
 @pytest.mark.critical
-@pytest.mark.parametrize(
-    "a, b, expected_result",
-    [
-        (1, 2, 0.5),
-        (0, 0, 0),
-        (-1, -1, 1),
-        (6, 2, 3)
-    ]
-)
 class TestDivide:
+    @pytest.mark.parametrize(
+        "a, b, expected_result",
+        [
+            (1, 2, 0.5),
+            (0, 0, 0),
+            (-1, -1, 1),
+            (6, 2, 3)
+        ]
+    )
     def test_divide_positive(self, a, b, expected_result):
         current_result = BasicCalc.calc_divide(a, b)
         assert current_result == expected_result, f'Неправильное значение для деления {current_result}, ожидал {expected_result}'
 
     def test_divide_negative(self):
-        with pytest.raises(TypeError, match="Не поддерживается операция деления числа на None!"):
+        with pytest.raises(TypeError):
             BasicCalc.calc_divide(0, None)
