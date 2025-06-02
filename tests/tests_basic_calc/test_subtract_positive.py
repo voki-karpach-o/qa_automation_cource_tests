@@ -12,4 +12,4 @@ class TestSubtract:
 
     def test_subtract_negative(self):
         with pytest.raises(TypeError, match="Одним из значений является строка"):
-            BasicCalc.calc_add('A', 3)
+            BasicCalc.calc_subtract('A', 3)
