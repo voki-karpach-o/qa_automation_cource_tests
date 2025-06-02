@@ -26,4 +26,4 @@ class TestDivide:
 
     def test_divide_negative(self):
         with pytest.raises(TypeError, match="Не поддерживается операция деления числа на None!"):
-            BasicCalc.calc_add(0, None)
+            BasicCalc.calc_divide(0, None)
