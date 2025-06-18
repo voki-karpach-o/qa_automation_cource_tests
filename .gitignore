@@ -6,6 +6,7 @@ __pycache__/
 *.pyc
 .idea/
 .idea/workspace.xml
+.idea/shelf/
 .coverage
 *.coveragerc
 report.html
