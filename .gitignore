@@ -11,3 +11,7 @@ __pycache__/
 *.coveragerc
 report.html
 .pytest_cache/
+*.pyo
+pip-wheel-metadata/
+pip-cache/
+.pip/
