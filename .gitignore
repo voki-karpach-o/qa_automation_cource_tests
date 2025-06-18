@@ -1,12 +1,40 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+workspace.xml
 venv/
 __pycache__/
 *.pyc
 .idea/
 .idea/workspace.xml
+.idea/shelf/
 .coverage
 *.coveragerc
 report.html
 .pytest_cache/
+
+# Игнорировать файлы, создаваемые при тестировании и разработке
+*.log                  # Лог-файлы
+test-results.xml        # Файлы отчетов о тестах
+nose_tests.xml          # Файлы отчетов, созданные через nose
+coverage.xml            # Файл отчета о покрытии в формате XML
+*.html                  # HTML отчеты, генерируемые pytest-html
+*.xml                   # Другие XML-файлы, связанные с результатами тестов
+
+# Игнорировать временные или автоматические файлы
+*.swp                   # Временные файлы vim
+*.swo                   # Временные файлы vim
+*.bak                   # Резервные копии
+*.orig                  # Резервные копии
+
+# Игнорировать файлы __init__.py в тестах или других папках
+**/__init__.py          # Игнорирует любые __init__.py файлы в подкаталогах
+
+# Игнорировать файлы метаданных, создаваемые в разных инструментах
+*.DS_Store              # Метаданные файлов в macOS
+Thumbs.db               # Превьюшки Windows
+desktop.ini             # Настройки для папок в Windows
+
+# Игнорировать файлы настроек редакторов
+.vscode/                # Настройки Visual Studio Code
+*.iml                   # Файлы настроек IntelliJ IDEA
+.idea/                  # Папка настроек проекта JetBrains IDE
