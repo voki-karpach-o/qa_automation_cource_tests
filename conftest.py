@@ -1,6 +1,7 @@
 import sys
 import os
 import pytest
+from qa_automation_cource.basic_calc import BasicCalc
 from qa_automation_cource.new_calc import NewCalc
 
 project_root = os.path.abspath(os.path.dirname(__file__))
@@ -8,15 +9,14 @@ sys.path.insert(0, project_root)
 
 
 @pytest.fixture
-def calculator_new():
-    calc = NewCalc()
+def calculator_basic():
+    calc = BasicCalc()
     return calc
 
 
 @pytest.fixture
-def calculator_new_with_memory():
+def calculator_new():
     calc = NewCalc()
-    calc.memo_plus(5)
     return calc
 
 
@@ -28,6 +28,7 @@ def temp_log_file(tmpdir):
         os.remove(log_file)
 
 
+@pytest.fixture
 def generate_test_data():
     test_data = [
         (1, 2, 3),  # 3
@@ -36,8 +37,3 @@ def generate_test_data():
         (0, 0, 0),  # 0
     ]
     return test_data
-
-
-@pytest.fixture
-def test_data():
-    return generate_test_data()
