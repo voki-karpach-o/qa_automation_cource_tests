@@ -21,6 +21,11 @@ def calculator_new():
 
 
 @pytest.fixture
+def calculator_with_memory(calculator_new):
+    return calculator_new.memo_plus(5)
+
+
+@pytest.fixture
 def temp_log_file(tmpdir):
     log_file = tmpdir.join("calculator_log.txt")
     yield log_file
