@@ -66,4 +66,3 @@ divide_test_data = [
 @pytest.fixture(params=divide_test_data)
 def divide_fixture(request):
     return request.param
-
