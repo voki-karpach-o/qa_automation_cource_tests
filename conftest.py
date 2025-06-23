@@ -23,7 +23,7 @@ def calculator_new():
 
 
 @pytest.fixture
-def calculator_with_memory(calculator_new):
+def calculator_with_initialized_memory(calculator_new):
     calculator_new.memo_plus(5)
     return calculator_new
 
