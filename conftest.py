@@ -56,12 +56,14 @@ def calculator_with_temp_log(monkeypatch, temp_log_file):
     return calc
 
 
-@pytest.fixture
-def generate_test_data():
-    test_data = [
-        (1, 2, 3),  # 3
-        (5, 3, 8),  # 8
-        (-1, -1, -2),  # -2
-        (0, 0, 0),  # 0
-    ]
-    return test_data
+divide_test_data = [
+    (2, 2, 1.0),
+    (-4, -1, 4.0),
+    (5, 0, 0)  # так как при неправильном деление заменяем ассерт на 0,
+]
+
+
+@pytest.fixture(params=divide_test_data)
+def divide_fixture(request):
+    return request.param
+
