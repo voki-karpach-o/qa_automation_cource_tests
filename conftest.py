@@ -54,15 +54,3 @@ def calculator_with_temp_log(monkeypatch, temp_log_file):
     calc = NewCalc()
     calc.test_log_file = temp_log_file
     return calc
-
-
-divide_test_data = [
-    (2, 2, 1.0),
-    (-4, -1, 4.0),
-    (5, 0, 0)  # так как при неправильном деление заменяем ассерт на 0,
-]
-
-
-@pytest.fixture(params=divide_test_data)
-def divide_fixture(request):
-    return request.param
