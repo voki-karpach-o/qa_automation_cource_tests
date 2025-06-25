@@ -6,9 +6,9 @@ from qa_automation_cource.new_calc import NewCalc
 class TestMemoMinus:
     def test_memo_minus_positive(self):
         calc = NewCalc()
-        current_result = calc.memory = [5, 10, 15]
+        calc.memory = [5, 10, 15]
         calc.memo_minus()
-        assert current_result == [5, 10], "Позитивный кейс: удаление значения из памяти"
+        assert calc.memory == [5, 10], "Позитивный кейс: удаление значения из памяти"
 
     def test_memo_minus_negative(self):
         """
